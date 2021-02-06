@@ -24,8 +24,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3.8.0
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          commit-message: "[automation] update flake dependencies"
-          title: "[automation] update flake dependencies"
+          commit-message: "chore: update flake dependencies - automation"
+          title: "chore: update flake dependencies - automation"
           branch: automation/update-flake-dependencies
-          body: |
-            Updates flake dependencies; merge if the build passes.
+          body: Updates flake dependencies; merge if the build passes.
