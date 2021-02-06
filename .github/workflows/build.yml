@@ -3,10 +3,12 @@ on:
   pull_request:
     paths:
       - "**.nix"
+      - flake.lock
       - .github/workflows/build.yml
   push:
     paths:
       - "**.nix"
+      - flake.lock
       - .github/workflows/build.yml
 jobs:
   tests:
