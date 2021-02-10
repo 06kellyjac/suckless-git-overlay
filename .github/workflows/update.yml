@@ -27,7 +27,7 @@ jobs:
       - name: Build nix packages
         run: nix-build ci.nix -A buildOutputs
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3.8.1
+        uses: peter-evans/create-pull-request@v3.8.2
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           commit-message: "chore: update flake dependencies - automation"
