@@ -18,6 +18,7 @@ jobs:
           install_url: https://github.com/numtide/nix-flakes-installer/releases/download/nix-2.4pre20210126_f15f0b8/install
           extra_nix_config: |
             experimental-features = nix-command flakes
+          nix_path: nixpkgs=channel:nixpkgs-unstable
       - name: Update flake lock file
         run: nix flake update --recreate-lock-file
       - name: Show nixpkgs version
