@@ -31,6 +31,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3.8.2
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
+          assignees: 06kellyjac
+          reviewers: 06kellyjac
           commit-message: "chore: update flake dependencies - automation"
           title: "chore: update flake dependencies - automation"
           branch: automation/update-flake-dependencies
