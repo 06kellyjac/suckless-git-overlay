@@ -18,22 +18,20 @@ jobs:
           install_url: https://github.com/numtide/nix-flakes-installer/releases/download/nix-2.4pre20210126_f15f0b8/install
           extra_nix_config: |
             experimental-features = nix-command flakes
-          nix_path: nixpkgs=channel:nixpkgs-unstable
       - name: Update flake lock file
         run: nix flake update --recreate-lock-file
-      - name: Show nixpkgs version
-        run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
-      # Run the tests here as recursion prevention means they wont run in the PR
-      # https://docs.github.com/en/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow
-      - name: Build nix packages
-        run: nix-build ci.nix -A buildOutputs
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v3.8.2
         with:
-          token: "${{ secrets.GITHUB_TOKEN }}"
           assignees: 06kellyjac
           reviewers: 06kellyjac
+          delete-branch: true
           commit-message: "chore: update flake dependencies - automation"
           title: "chore: update flake dependencies - automation"
           branch: automation/update-flake-dependencies
           body: Updates flake dependencies; merge if the build passes.
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL    - ${{ steps.cpr.outputs.pull-request-url }}"
