@@ -12,25 +12,30 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
+        with:
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Install nix (with flakes)
         uses: cachix/install-nix-action@v13
         with:
-          install_url: https://github.com/numtide/nix-flakes-installer/releases/download/nix-2.4pre20210126_f15f0b8/install
+          install_url: https://github.com/numtide/nix-flakes-installer/releases/download/nix-2.4pre20210207_fd6eaa1/install
           extra_nix_config: |
             experimental-features = nix-command flakes
+
       - name: Update flake lock file
         run: nix flake update --recreate-lock-file
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3.8.2
         with:
-          assignees: 06kellyjac
           reviewers: 06kellyjac
           delete-branch: true
           commit-message: "chore: update flake dependencies - automation"
           title: "chore: update flake dependencies - automation"
           branch: automation/update-flake-dependencies
           body: Updates flake dependencies; merge if the build passes.
+
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
