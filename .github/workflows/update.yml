@@ -38,12 +38,14 @@ jobs:
           body: Updates flake dependencies; merge if the build passes.
 
       - name: Check outputs
+        if: steps.cpr.outputs.pull-request-number != ''
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL    - ${{ steps.cpr.outputs.pull-request-url }}"
 
       - name: Enable Pull Request Automerge
         uses: peter-evans/enable-pull-request-automerge@v1.0.0
+        if: steps.cpr.outputs.pull-request-number != ''
         with:
           token: ${{ secrets.REPO_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
