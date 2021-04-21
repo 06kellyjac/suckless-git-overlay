@@ -6,6 +6,7 @@ on:
       - flake.lock
       - .github/workflows/build.yml
   push:
+    branches: [master]
     paths:
       - "**.nix"
       - flake.lock
