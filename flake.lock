@@ -92,11 +92,11 @@
     "st": {
       "flake": false,
       "locked": {
-        "lastModified": 1640606831,
-        "narHash": "sha256-nM6cRPZ5TBysBJNukW9REIgP3ni1E1LAHM/vPGlXb9o=",
+        "lastModified": 1640885837,
+        "narHash": "sha256-ism6t49mo5CYgFrp8eNN2Hfrt54p1624Rnq0f1T+gC8=",
         "ref": "master",
-        "rev": "a0467c802d4f86ed162486e3453dd61181423902",
-        "revCount": 1137,
+        "rev": "65f1dc428315ae9d7f362e10c668557c1379e7af",
+        "revCount": 1138,
         "type": "git",
         "url": "git://git.suckless.org/st"
       },
