@@ -44,7 +44,7 @@ jobs:
           echo "Pull Request URL    - ${{ steps.cpr.outputs.pull-request-url }}"
 
       - name: Enable Pull Request Automerge
-        uses: peter-evans/enable-pull-request-automerge@v1.1.0
+        uses: peter-evans/enable-pull-request-automerge@v1.2.0
         if: steps.cpr.outputs.pull-request-number != ''
         with:
           token: ${{ secrets.REPO_TOKEN }}
