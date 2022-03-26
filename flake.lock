@@ -3,11 +3,11 @@
     "dmenu": {
       "flake": false,
       "locked": {
-        "lastModified": 1646171139,
-        "narHash": "sha256-vQ9ZmhdH5hmLkhT+5ZEQin+eQ3eMUkbXuYhmZAE3vYM=",
+        "lastModified": 1648245230,
+        "narHash": "sha256-vXW0LRojokghj+2Hoc5Bga9QzGSO7bysNiDlV+8N4tA=",
         "ref": "master",
-        "rev": "3a505cebe8adab204e5619357e0bfe3f9f3a92ff",
-        "revCount": 583,
+        "rev": "6818e07291f3b2913e687c8ec3d3fe4711724050",
+        "revCount": 590,
         "type": "git",
         "url": "git://git.suckless.org/dmenu"
       },
@@ -35,11 +35,11 @@
     "flake-compat": {
       "flake": false,
       "locked": {
-        "lastModified": 1641205782,
-        "narHash": "sha256-4jY7RCWUoZ9cKD8co0/4tFARpWB+57+r1bLLvXNJliY=",
+        "lastModified": 1648199409,
+        "narHash": "sha256-JwPKdC2PoVBkG6E+eWw3j6BMR6sL3COpYWfif7RVb8Y=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "b7547d3eed6f32d06102ead8991ec52ab0a4f1a7",
+        "rev": "64a525ee38886ab9028e6f61790de0832aa3ef03",
         "type": "github"
       },
       "original": {
