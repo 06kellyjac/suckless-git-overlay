@@ -35,11 +35,11 @@
     "flake-compat": {
       "flake": false,
       "locked": {
-        "lastModified": 1648199409,
-        "narHash": "sha256-JwPKdC2PoVBkG6E+eWw3j6BMR6sL3COpYWfif7RVb8Y=",
+        "lastModified": 1650374568,
+        "narHash": "sha256-Z+s0J8/r907g149rllvwhb4pKi8Wam5ij0st8PwAh+E=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "64a525ee38886ab9028e6f61790de0832aa3ef03",
+        "rev": "b4a34015c698c7793d592d66adbab377907a2be8",
         "type": "github"
       },
       "original": {
@@ -92,11 +92,11 @@
     "st": {
       "flake": false,
       "locked": {
-        "lastModified": 1647602427,
-        "narHash": "sha256-ZqdYv3OztoSJO56MBnxXUb9WvPAQMKAgEicCz0L2I88=",
+        "lastModified": 1650361417,
+        "narHash": "sha256-c/P0HBykH5T34C9q9CFrGPNJyk46wa/FZ86LCVZSEMg=",
         "ref": "master",
-        "rev": "ef0551932fb162f907b40185d2f48c3b497708ee",
-        "revCount": 1147,
+        "rev": "8629d9a1da72cc18568a8f146307b0e939b77ebf",
+        "revCount": 1148,
         "type": "git",
         "url": "git://git.suckless.org/st"
       },
