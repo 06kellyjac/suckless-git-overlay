@@ -3,11 +3,11 @@
     "dmenu": {
       "flake": false,
       "locked": {
-        "lastModified": 1650118861,
-        "narHash": "sha256-KPARunKJ44DnbRL6MnxMKmnIHjQVdnx7zw4/7s/PJC4=",
+        "lastModified": 1651256282,
+        "narHash": "sha256-kC7Tyhj5NbUC05BShtgN1IYFHQkoeNPC5O9RmczlbJc=",
         "ref": "master",
-        "rev": "33685b06e9332638769e677e77b257e24e069fd1",
-        "revCount": 594,
+        "rev": "e1e1de7b3b8399cba90ddca9613f837b2dbef7b9",
+        "revCount": 595,
         "type": "git",
         "url": "git://git.suckless.org/dmenu"
       },
