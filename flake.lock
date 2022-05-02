@@ -3,11 +3,11 @@
     "dmenu": {
       "flake": false,
       "locked": {
-        "lastModified": 1651317573,
-        "narHash": "sha256-kuVFLZVkqwSGuDfpQCLwufP3F20Ich6AZluXHAiUnos=",
+        "lastModified": 1651423105,
+        "narHash": "sha256-fMsFCuwn2I6gdnoMcBokDcL8tBK9Z3/K6fqE6iSqRpQ=",
         "ref": "master",
-        "rev": "fe5d5c6709a77ac5d554e26dda76a67df68618ae",
-        "revCount": 596,
+        "rev": "28fb3e28120db29ea45d1951eee7047b4109ab5f",
+        "revCount": 597,
         "type": "git",
         "url": "git://git.suckless.org/dmenu"
       },
@@ -19,11 +19,11 @@
     "dwm": {
       "flake": false,
       "locked": {
-        "lastModified": 1650981055,
-        "narHash": "sha256-OQO1dBTYQMHa/fSmbOL0Fc++0AhWfOwnV4t/fN+jk0Y=",
+        "lastModified": 1651423074,
+        "narHash": "sha256-1KooxMRWcL6+DWtaKxup3NRD9agKFJaMEEzJi6uBteg=",
         "ref": "master",
-        "rev": "8b48e309735f5fe49d35f86e967f4b5dea2a2f2d",
-        "revCount": 1698,
+        "rev": "cd0773cee9bad694dc9a6b1355a32bbe61abadff",
+        "revCount": 1699,
         "type": "git",
         "url": "git://git.suckless.org/dwm"
       },
@@ -65,11 +65,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1651114127,
-        "narHash": "sha256-/lLC0wkMZkAdA5e1W76SnJzbhfOGDvync3VRHJMtAKk=",
+        "lastModified": 1651369430,
+        "narHash": "sha256-d86uUm0s11exU9zLo2K1AwtJQJDKubFpoF0Iw767uT4=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "6766fb6503ae1ebebc2a9704c162b2aef351f921",
+        "rev": "b283b64580d1872333a99af2b4cef91bb84580cf",
         "type": "github"
       },
       "original": {
@@ -92,11 +92,11 @@
     "st": {
       "flake": false,
       "locked": {
-        "lastModified": 1650361417,
-        "narHash": "sha256-c/P0HBykH5T34C9q9CFrGPNJyk46wa/FZ86LCVZSEMg=",
+        "lastModified": 1651423120,
+        "narHash": "sha256-27uT+QEwVr7HXYNUgKbSGJ0YuzvHE8GYrJZlUmmbHO4=",
         "ref": "master",
-        "rev": "8629d9a1da72cc18568a8f146307b0e939b77ebf",
-        "revCount": 1148,
+        "rev": "baa9357e96d2478baa52a3301e70ac80a229b726",
+        "revCount": 1149,
         "type": "git",
         "url": "git://git.suckless.org/st"
       },
