@@ -19,11 +19,11 @@
     "dwm": {
       "flake": false,
       "locked": {
-        "lastModified": 1657911238,
-        "narHash": "sha256-X/sJ2iXaL0/4vxXorCB0E1SKT8srvbhMEMBR3bGxWjU=",
+        "lastModified": 1658474332,
+        "narHash": "sha256-8rWw+vpXZlT0bfZjsOG2kyJPiYguItvp81xvzQR0rFw=",
         "ref": "master",
-        "rev": "6613d9f9a1a5630bab30bc2b70bdc793977073ee",
-        "revCount": 1702,
+        "rev": "e03248a4d5feaaacb130416be6e467a04de81f78",
+        "revCount": 1703,
         "type": "git",
         "url": "git://git.suckless.org/dwm"
       },
@@ -65,11 +65,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1658342534,
-        "narHash": "sha256-4uJmhOnJleJGCjkLOEWKqOKlKISn1wGedNAihYezV5w=",
+        "lastModified": 1658430343,
+        "narHash": "sha256-cZ7dw+dyHELMnnMQvCE9HTJ4liqwpsIt2VFbnC+GNNk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "501bbad4ce34c9d81d6d2b75e7e7126a9db3907c",
+        "rev": "e2b34f0f11ed8ad83d9ec9c14260192c3bcccb0d",
         "type": "github"
       },
       "original": {
