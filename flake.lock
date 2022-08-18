@@ -19,11 +19,11 @@
     "dwm": {
       "flake": false,
       "locked": {
-        "lastModified": 1660287754,
-        "narHash": "sha256-ibDcKJDITs61jrpnb0iHT8gzOHO+TaeIeyGDjKdDO8c=",
+        "lastModified": 1660736037,
+        "narHash": "sha256-uaWuGXCoT5dqgvJ1rjVjs6DOsYwUV8V3XM6z8WxbiB4=",
         "ref": "master",
-        "rev": "44adafe0069e73aa03a3829d7bb39591cd8b3f1d",
-        "revCount": 1709,
+        "rev": "5799dd1fca6576b662d299e210cd5933b29d502d",
+        "revCount": 1710,
         "type": "git",
         "url": "git://git.suckless.org/dwm"
       },
